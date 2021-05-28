@@ -1,38 +1,188 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+
+*{
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+    color: white;
+    text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon_title{
+    font-size: 40px;
+    color: #5DADE2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.Buttons{
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.Buttons Button{
+    margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Icons{
+    font-size: 35px;
+}
+
+.Icon{
+    margin: 3px;
+}
+
+.MainGeneral{
+    background: #D6EAF8;
+    padding-bottom: 50px;
+}
+
+h3{
+    font-size: 25px;
+    padding: 10px;
+}
+
+h4{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.Dividers{
+    padding: 30px;
+    text-align: justify;
+}
+
+.MainLayout{
+    background: #F9EBEA;
+    padding-bottom: 50px;
+}
+
+.Col-24{
+    background: #3498DB;
+    padding: 40px;
+}
+
+.Col1-12{
+    background: #45B39D;
+    padding: 40px;
+}
+.Col2-12{
+    background: #F7DC6F;
+    padding: 40px;
+}
+
+.Col1-8{
+    background: #F0B27A;
+    padding: 40px;
+}
+.Col2-8{
+    background: #CA6F1E;
+    padding: 40px;
+}
+.Col3-8{
+    background: #CD6155;
+    padding: 40px;
+}
+
+.Col1-6{
+    background: #99A3A4;
+    padding: 40px;
+}
+.Col2-6{
+    background: #D5F5E3;
+    padding: 40px;
+}
+.Col3-6{
+    background: #85C1E9;
+    padding: 40px;
+}
+.Col4-6{
+    background: #FDEB25;
+    padding: 40px;
+}
+
+.Layout-Header{
+    color: white;
+    background: #21618C;
+}
+
+.Layout-Slider{
+    color: white;
+    background: #5DADE2;
+    padding: 50px;
+}
+
+.Layout-Content{
+    color: white;
+    background:#AED6F1;
+    padding: 50px;
+}
+
+.Layout-Footer{
+    color: white;
+    background:#1B4F72;
+}
+
+.Layouts{
+    padding: 10px;
+}
+
+.Grids{
+    padding: 10px;
+}
+
+.Spaces{
+    padding: 10px;
+}
+
+.Affixs{
+    padding: 50px;
+
+}
+
+.Affix-Button{
+    margin: 10px;
+}
+
+.Dropdown-Button{
+    margin: 10px;
+}
+
+.Stepss{
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.MainDataEntry{
+    background: #FEF5E7;
+    padding-bottom: 50px;
+}
+
+
+.Inputs{
+    padding-left: 100px;
+    padding-right: 100px
+}
+
+input{
+    text-align: left;
+}
+
+.Input-pass{
+    margin-top: 10px;
+}
+
+.Input-search{
+    margin-top: 10px;
+    text-align: left;
+}
+
+.Input-Btn{
+    margin-top: 20px;
+}
+
+.Input-Btn Button{
+    margin-left: 10px;
 }

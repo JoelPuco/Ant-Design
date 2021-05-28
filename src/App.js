@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import { Layout , Affix} from 'antd';
 import './App.css';
+import { AntDesignOutlined } from '@ant-design/icons';
+import { Main } from '../src/components/Main'
+import { useState } from 'react';
 
+
+const { Header, Footer, Content } = Layout;
 function App() {
+  const [header, setHeader] = useState(0)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Layout>
+      <Affix offsetTop={header}>
+      <Header>
+        <h1 className="title"> <AntDesignOutlined className="icon_title"/> Componentes Ant Design </h1>
+      </Header>
+      </Affix>
+      <Content>
+        <Main setHeader={setHeader} header={header}/>
+      </Content>
+      <Footer>Footer</Footer>
+    </Layout>
     </div>
   );
 }
